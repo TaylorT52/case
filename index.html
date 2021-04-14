@@ -1,111 +1,70 @@
-<DOCTYPE!>
 <html>
 <head>
-
   <link rel="icon" src="favicon.png" href="favicon.png"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Home</title>
-    <style>
-    /*  */
-  body {font-family: 'Raleway', sans-serif;}
-  .thin {font-weight:100;font-family: 'Raleway', sans-serif;}
-  h1 { font-size:44px; font-weight:600;font-family: 'Raleway', sans-serif;}
-  h2 {font-size:33px; font-weight:600;font-family: 'Raleway', sans-serif;}
-  h3 {font-size:22px; font-weight:600;font-family: 'Raleway', sans-serif;}
-  h4, h5 {font-weight:800;font-family: 'Raleway', sans-serif;}
-  .bold, strong  {font-weight:1000;font-family: 'Raleway', sans-serif;}
-  .extrabold {font-weight:800;font-family: 'Raleway', sans-serif;}
-  .ultrabold {font-weight:900;font-family: 'Raleway', sans-serif;}
-    </style>
 </head>
 <body>
 
-  <nav style="margin-top:20; background-color:white;"class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar-collapse collapse" id="navbar10">
-              <ul class="navbar-nav nav-fill w-100">
-                  <li class="nav-item">
-                  </li>
-                  <li class="nav-item">
-                      <a style="font-size:20;" class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a style="font-size:20;" class="nav-link" href="about.html">About & Donate</a>
-                  </li>
-                  <li class="nav-item">
-                      <a style="font-size:20; margin-right:0;" class="nav-link" href="howtos.html">How-To's</a>
-                  </li>
-                  <li class="nav-item">
-
-
-                  </li>
-              </ul>
-          </div>
+  <!-- Navbar Code -->
+  <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+     <img src="images/tempLogo.png" alt="" width="40" class="d-inline-block align-text-center">
+     Techable
+   </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" style = "margin-bottom: 5" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" style = "margin-bottom: 5" href="donations.html">Donate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" style = "margin-bottom: 5" href="resources.html">Resources</a>
+          </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" style = "margin-bottom: 5" href="indexES.html">Español/Spanish</a>
+        </li>
       </div>
+    </div>
   </nav>
 
-    <hr style="background-color:black;">
-
-  <div style="margin-top:20; background-color:white;" class="jumbotron jumbotron-fluid"></div>
+<!-- First columns (probably information or news) -->
   <div class="container">
-    <div class="container">
-      <div class="row">
-        <div class="col" style="width:50%;margin-right: 20px;margin-top: 20px;">
-          <img width="100%" src="images/about.jpg">
-        </div>
-        <div class="col" >
-          <h2>About</h2>
-          <h3>In the midst of the COVID-19 pandemic, one issue became very apparent. How were students going to go back to school?
-    The conclusion that was reached was that we wouldn't go back--we would zoom in, presenting another problem. How
-    were people who couldn't afford computers or didn't know how to use them going to be able to do this? The reason
-    for this website is to help people learn how to use things like zoom, email, and google, as well as to provide a
-    platform for people to see where to donate. I hope that this helps!</h3>
-        </div>
+    <div class="row">
+      <div class="col">
+        <!-- Get started-->
+        <h1 style = "margin-top: 100;">Learn how to use tech on Techable</h1>
+        <h5 style = "margin-right: 30">Learn with infographics, articles, and youtube videos. Also support intiatives trying to teach tech!</h5>
+        <br>
+        <a href="resources.html" class="btn btn-outline-dark btn-lg" tabindex="-1" role="button" aria-disabled="false">Get Started</a>
+        <!--Donate-->
+        <h1 style = "margin-top: 100">Donate</h1>
+        <h5>Learn about some initiatives that we support such as Sunday Friends, Peninsula Bridge, and San José Digital inclusion fund</h5>
+        <h5>Take a look at our goFundMe and Tech drive</h5>
+        <br>
+          <a href="donations.html" class="btn btn-outline-dark btn-lg" tabindex="-1" role="button" aria-disabled="false">Look at Donations</a>
+          <!--Learn-->
+          <h1 style = "margin-top: 100">Learn</h1>
+          <h5>Learn about how to use technology and some services such as Zoom, Google, and Email</h5>
+          <h5>Watch videos, look at infographics, and read about it!</h5>
+          <br>
+          <a style = "margin-bottom: 200" href="resources.html" class="btn btn-outline-dark btn-lg" tabindex="-1" role="button" aria-disabled="false">Start Learning</a>
       </div>
-  </div>
-</div>
-
-<br>
-<br>
-<br>
-
-<div style="background-color:#9370DB; margin-top:0px;"class="jumbotron">
-  <div style="background-color:#9370DB;" class="jumbotron jumbotron-fluid">
-    <div style="background-color:#9370DB;" class="container">
-    <center><h1 style="color:white;" class="display-3">Learn to Use Tech Resources and Donate</h1></center>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col">
-        <a href="about.html">
-        <img style="width:90%; margin-bottom:0px;"src="images/donate.png">
-        </a>
-        <p style="margin-left:115;color:white;font-size:20;">Donate</p>
-        <p style="margin-bottom:0;margin-left:45;color:white;font-size:15;">A link certain nonprofits donation</p>
-        <p style="margin-left:60;color:white;font-size:15;">pages supporting this issue</p>
-        </div>
-        <div class="col">
-          <a href="howtos.html">
-           <img style="width:90%; margin-bottom:0px;" alt="img" src="images/pointer.png">
-         </a>
-        <p style="margin-left:95;color:white;font-size:20;">Tech How-To's</p>
-        <p style="margin-bottom:0;margin-left:70;color:white;font-size:15;">Step-by-step infographics on</p>
-        <p style="margin-left:60;color:white;font-size:15;margin-bottom:0;">how to use platforms like Zoom</p>
-        <p style="margin-left:60;color:white;font-size:15;">Email, and Google applications.</p>
-        </div>
-        <div class="col">
-          <a href="donate.html">
-           <img style="width:90%; margin-bottom:0px;" alt="img" src="images/info.png">
-         </a>
-        <p style="margin-left:110;color:white;font-size:20;">Information</p>
-        <p style="margin-bottom:0;margin-left:80;color:white;font-size:15;">Information about intiatives</p>
-        <p style="margin-left:45;color:white;font-size:15;margin-bottom:0;">helping those with distance learning</p>
-        <p style="margin-left:55;color:white;font-size:15;">and issues pertaining to this topic</p>
-        </div>
+      <div class="col">
+        <!--First image-->
+        <img src="images/tempFront.jpeg" alt="" width = 90% style="margin-top:100" class="d-inline-block align-text-right">
+        <img src="images/donations.jpeg" alt="" width = 90% style="margin-top:100" class="d-inline-block align-text-right">
+        <br>
+        <img src="images/learn.png" alt="" width = 90% style="margin-top:100" class="d-inline-block align-text-right">
+        <br>
       </div>
     </div>
+
 </body>
