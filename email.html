@@ -3,174 +3,145 @@
   <link rel="icon" src="favicon.png" href="favicon.png"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Email</title>
-    <style>
-    /*  */
-  body {font-family: 'Raleway', sans-serif;}
-  .thin {font-weight:100;font-family: 'Raleway', sans-serif;}
-  h1 { font-size:44px; font-weight:600;font-family: 'Raleway', sans-serif;}
-  h2 {font-size:33px; font-weight:600;font-family: 'Raleway', sans-serif;}
-  h3 {font-size:22px; font-weight:600;font-family: 'Raleway', sans-serif;}
-  h4, h5 {font-weight:800;font-family: 'Raleway', sans-serif;}
-  .bold, strong  {font-weight:1000;font-family: 'Raleway', sans-serif;}
-  .extrabold {font-weight:800;font-family: 'Raleway', sans-serif;}
-  .ultrabold {font-weight:900;font-family: 'Raleway', sans-serif;}
-    </style>
 </head>
 <body>
-<br>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="navbar-collapse collapse" id="navbar10">
-              <ul class="navbar-nav nav-fill w-100">
-                  <li class="nav-item">
-                  </li>
-                  <li class="nav-item">
-                      <a style="font-size:20;" class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a style="font-size:20;" class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                      <a style="font-size:20;" class="nav-link" href="howtos.html">How-To's</a>
-                  </li>
-                  <li class="nav-item">
-
-                  </li>
-              </ul>
-          </div>
+  <!-- Navbar Code -->
+  <nav class="navbar navbar-expand-lg navbar navbar-light" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+     <img src="images/tempLogo.png" alt="" width="40" class="d-inline-block align-text-center">
+     Techable
+   </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" style = "margin-bottom: 5" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" style = "margin-bottom: 5" href="donations.html">Donate</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" style = "margin-bottom: 5" href="resources.html">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" style = "margin-bottom: 5" href="emailES.html">Español/Spanish</a>
+          </li>
       </div>
+    </div>
   </nav>
-<div style="background-color:#9370DB; margin-top:0px"class="jumbotron">
-  <div style="background-color:#9370DB;" class="jumbotron jumbotron-fluid">
-    <div style="background-color:#9370DB;" class="container">
-      <center><h1 style="color:white;" class="display-3">How To's</h1></center>
-      <center><h1 style="color:white;< font-size:30;" class="lead">E-Mail</h1></center>
+
+  <div class="container">
+    <div class="container" style = "margin-top: 50; margin-bottom: 100">
+  <div class="row">
+    <div class="col-10".col-10>
+      <h2>What is Email?</h2>
+      <p>Email is commonly used as a tool for more formal communication.
+        It allows you to almost instantaneously communicate with others.
+        Here is how to send and forward an email, attaching files and images,
+        creating a new mailbox, and what to do when files are too large</p>
+        <br>
+      <!--Sending an email-->
+      <h2 id="sectionA">Sending an Email</h2>
+      <p>The e-mail app should be automatically installed on your computer.
+        If you have a chromebook, then you should automatically have a g-mail account, which is essentially the same.</p>
+      <p>In the top left corner, there should be a square and pencil. If you click on this, it should open an e-mail draft.
+In the 'to:' section, fill in the e-mail of the person that you are writing to. Cc is people that you are adding to the e-mail. If you aren't adding anyone, then leave this box blank.
+In the subject section, you can put a brief title to let someone know what the email is about. Then below, you put in whatever you want to write.
+Then press the send button (the paper airplane in the top left corner)</p>
+<figure class="figure">
+<img width = 70% src="images/emailimg.png" class="figure-img img-fluid rounded text-align-center" style = "background-color:gray" alt="...">
+</figure>
+    <!--Forwarding Emails-->
+      <h2 style = "margin-top: 75"id="sectionB">Forwarding Emails</h2>
+<span>Open the email that you wish to forward
+If you hover over the dividing line, then you should see four symbols. One of the symbols is an arrow pointing to the right. Click on this one:  </span>
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-forward-fill inline-text" viewBox="0 0 16 16">
+    <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+  </svg>
+      <p> Some longer sample textWrite the email of the person to who you want to forward the email to. If desired, you can also add a message right below the subject.
+      Click the send arrow!</p>
+      <figure class="figure">
+      <img width = 72% src="images/forwardEmail.png" class="figure-img img-fluid rounded text-align-center" style = "background-color:gray" alt="...">
+      </figure>
+      <!--Sending images and files-->
+      <h2 style = "margin-top: 75"id="sectionC">Sending Files and Attatching Images</h2>
+      <h4>Sending Files</h4>
+      <span>Once you've opened a draft, there's an option that allows you to attach a file.
+Press the paper clip button in the top right corner, and you should see all the files on your computer.</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16">
+  <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"/>
+</svg>
+<p>You can search for the file by typing the name in the search bar or find it manually by going through your folders. Finally, simply press 'choose file', and then you're set!</p>
+<figure class="figure">
+<img width = 75% src="images/chooseFile.png" class="figure-img img-fluid rounded text-align-center" style = "background-color:gray" alt="...">
+</figure>
+<h4>Sending Images</h4>
+  <span>There are multiple ways of attatching images to your email.
+The simplest way is to find the image (if downloaded) on your computer. If you right-click on this image, there's an option that says 'copy'. If you copy it, click your email, then you can press ⌘Cmd+P and it'll paste right in.
+The other way is to attatch the image through the photo's function on your computer. This means that if you took this picture with you computer or phone, then you can simply choose it and put it in your email.
+In the top right corner of your email draft, there is a little icon that looks like a photo. Click on this.</span>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-back" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2h2a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2z"/>
+</svg>
+<p>After that, you can choose 'photos'. From this, you can see all of your photos from both your phone and computer
+Once you've found the photo that you want to put in your email, you can drag it into your email draft.</p>
+<figure class="figure">
+<img  src="images/photosemail.png" class="figure-img img-fluid rounded text-align-center" style = "background-color:gray" alt="...">
+</figure>
+<!--When Files are too large-->
+      <h2 style = "margin-top: 75"id="sectionD">What to do When Files are too Large</h2>
+      <h4>Method One</h4>
+      <p>Sometimes, you want to email a file but it's too big. The size limit for emailing files is 10MB. If it surpasses this, there are multiple ways of sending it.
+Sometimes the file is just slightly too big. In this case, it's possible to compress the file.
+On mac or pc, all you have to do is right click the file and select 'compress'
+If you have multiple files that you want to compress, you can create a folder (by right clicking your desktop and choosing 'new folder'), and compress the entire folder.
+Then just follow the steps above to send the file.</p>
+<figure class="figure">
+<img width = 75% src="images/compress.jpeg" class="figure-img img-fluid rounded text-align-center" style = "background-color:gray" alt="...">
+</figure>
+  <h4>Method Two</h4>
+  <p>If your file is waaaaayy over the size limit for email, you can share it via google drive. (If you don't have a google account set up, check out the google section of how-to's)
+Open your google drive. You should see a button that says '+ new'. If you click this, then you see and option called 'file upload'. Click this.
+It'll open your Finder, and then you can click whatever file you want to upload to google. Once you've found your file, click it and press the 'open' button in the bottom right corner.</p>
+<figure class="figure">
+<img  src="images/uploadFiles.jpg" class="figure-img img-fluid rounded text-align-center" style = "background-color:gray" alt="...">
+</figure>
+<p>Once the file is in your drive (this should be almost instantaneous), click it to open it. In the top right coner, there should be three dots. If you click this, it gives you the option to share this file with another person's google account.
+Click this and press share. Then input the email of the person that you want to share it with. This will allow them to access the file through google. You can send them the link by clicking 'copy link' and then paste this with ⌘Cmd+P into your email draft.</p>
+<figure class="figure">
+<img width = 70% src="images/sharefiles.png" class="figure-img img-fluid rounded text-align-center" style = "background-color:gray" alt="...">
+</figure>
+<!--Creating a new mailbox-->
+      <h2 style = "margin-top: 75"id="sectionE">Creating a New Mailbox</h2>
+      <p>All standard e-mail accounts have multiple mailboxes. There's inbox, sent,
+         flags, and trash. It's possible to create other inboxes to organize your e-mail.
+          Open the mail app and right-click on the section under 'on my mac'. Choose the 'new mailbox' section.
+Then choose the location of the e-mail. If you choose 'on my mac' it's local, meaning that it's
+only on your computer. If you choose your account, then it can be seen from any device that is
+ connected to your email account. If you choose an existing mailbox, this new mailbox will be like a subfolder.
+Once you've chosen a location, name the mailbox and click 'ok'. You can organize your messages by
+ dragging them into your new mailbox.</p>
+ <figure class="figure">
+ <img width = 70% src="images/mailbox.jpeg" class="figure-img img-fluid rounded text-align-center" style = "background-color:gray" alt="...">
+ </figure>
     </div>
-      </div>
+    <div class="col-sm" style = "margin-top: 50">
+      <nav id="navbar-example3" class="sticky-top navbar navbar-light bg-light">
+      <nav class="nav fixed-top flex-column">
+      </nav>
+      <h4 >On This Page</h4>
+      <a style = "margin-top:15" href="#sectionA">Sending an Email</a>
+      <a style = "margin-top:15" href="#sectionB">Forwarding Emails</a>
+      <a style = "margin-top:15"  href="#sectionC">Sending Files and Attatching Images</a>
+      <a style = "margin-top:15"  href="#sectionD">What to do When Files are too Large</a>
+      <a style = "margin-top:15"  href="#sectionE">Creating a New Mailbox</a>
+    </nav>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <img src="images/email.png">
-            <h1 style="margin-top:20;">Email</h1>
-              <h3>Email is commonly used as a tool for more formal communication. It alloaws you to almost instantaneously communicate with others. Here is how to send and forward an email, attatching files and images, creating a new mailbox, and what to do when files are too large.</h3>
-        </div>
-        <div class="col">
-          <center><img style="height:90%;margin-left:150;margin-top:40;"src="images/emailimage.jpg"></center>
-        </div>
-      </div>
 
-      <center><div class="container"></center>
-        <div class="row">
-          <div class="col">
-              <h2 style="margin-top:100;">Sending an Email</h2>
-                <h3>The e-mail app should be automatically installed on your computer. If you have a chromebook, then you should automatically have a g-mail account, which is essentially the same.</h3>
-                <h3 style="margin-top:30;">Step 1: Open the mail app on your computer</h3>
-                <h3>Step 2: In the top left corner, there should be a square and pencil. If you click on this, it should open an e-mail draft.</h3>
-                <h3>Step 3: In the 'to:' section, fill in the e-mail of the person that you are writing to. Cc is people that you are adding to the e-mail. If you aren't adding anyone, then leave this box blank.
-                  In the subject section, you can put a brief title to let someone know what the email is about. Then below, you put in what ever you want to write.</h3>
-                <h3>Step 4: Then press the send button (the paper airplane in the top left corner)</h3>
-          </div>
-          <div class="col">
-            <img style="height:7%;margin-left:80;margin-top:130;"src="images/email1.png">
-            <img style="height:64%;margin-left:80;margin-top:40;"src="images/email2.png">
-          </div>
-        </div>
-
-        <div class="row">
-            <div class="col">
-              <h2 style="margin-top:100;">Forwarding E-Mails</h2>
-                  <h3>Step 1: Open the email that you wish to forward</h3>
-                  <h3>Step 2: If you hover over the dividing line, then you should see four symbols. One of the symbols is an arrow pointing to the right. Click on this one!</h3>
-                  <h3>Step 3: Write the email of the person who you want to forward the email to. If desired, you can also add a message right below the subject.</h3>
-                  <h3>Step 4: Click the send arrow!</h3>
-            </div>
-            <div class="col">
-              <img style="height:30%;margin-top:100; margin-left:90;"src="images/forwardmail1.png">
-              <img style="height:50%;margin-left:180;margin-top:40;"src="images/forwardmail2.png">
-            </div>
-          </div>
-        </div>
-
-
-        <div style="margin-left:140; margin-top:50;" class="row">
-          <div class="col">
-            <h2 style="margin-top:100;">Attatching Files and Adding Images</h2>
-            <h3>Once you've opened a draft, there's an option that allows you to attatch a file.</h3>
-            <h3>Press the paper clip button in the top right corner, and you should see all the files on your computer.</h3>
-            <h3>You can search for the file by typing the name in the search bar or find it manually by going through your folders.</h3>
-            <h3>Finally, simply press 'choose file', and then you're set!</h3>
-            <br>
-            <h3>There are multiple ways of attatching images to your email.</h3>
-            <h3>The simplest way is to find the image (if downloaded) on your computer. If you right-click on this image, there's an option that says 'copy'. If you copy it, click your email, then you can press ⌘Cmd+P and it'll paste right in.</h3>
-            <h3>The other way is to attatch the image through the photo's function on your computer. This means that if you took this picture with you computer or phone, then you can simply choose it and put it in your email.</h3>
-            <h3>In the top right corner of your email draft, there is a little icon that looks like a photo. Click on this.</h3>
-            <h3>After that, you can choose 'photos'. From this, you can see all of your photos from both your phone and computer</h3>
-            <h3>Once you've found the photo that you want to put in your email, you can drag it into your email draft.</h3>
-
-          </div>
-            <div class="col">
-              <img style="height:20%;margin-left:100;margin-top:150;"src="images/filesemail.png">
-              <img style="height:20%;margin-left:180;margin-top:20;"src="images/filesselect.png">
-                <img style="height:30%;margin-top:50; margin-bottom:0;"src="images/photosemail.png">
-          </div>
-            </div>
-                </div>
-
-                <div style="margin-left:140; margin-top:50;" class="row">
-                  <div class="col">
-                    <h2 style="margin-top:100;">What To Do When Files Are Too Big</h2>
-                    <h3>Sometimes, you want to email a file but it's too big. The size limit for emailing files is 10MB. If it surpasses this, there are multiple ways of sending it.</h3>
-                    <br>
-                    <h3>Method 1: Sometimes the file is just slightly too big. In this case, it's possible to compress the file.</h3>
-                    <h3>On mac or pc, all you have to do is right click the file and select 'compress'</h3>
-                    <h3>If you have multiple files that you want to compress, you can create a folder (by right clicking your desktop and choosing 'new folder'), and compress the entire folder.</h3>
-                    <h3>Then just follow the steps above to send the file.</h3>
-                    <br>
-                    <h3>Method 2: If your file is waaaaayy over the size limit for email, you can share it via google drive. (If you don't have a google account set up, check out the google section of how-to's)</h3>
-                    <h3>Open your google drive. You should see a button that says '+ new'. If you click this, then you see and option called 'file upload'. Click this.</h3>
-                    <h3>It'll open your Finder, and then you can click whatever file you want to upload to google. Once you've found your file, click it and press the 'open' button in the bottom right corner.</h3>
-                    <h3>Once the file is in your drive (this should be almost instantaneous), click it to open it. In the top right coner, there should be three dots. If you click this, it gives you the option to share this file with another person's google account.</h3>
-                    <h3>Click this and press share. Then input the email of the person that you want to share it with. This will allow them to access the file through google. You can send them the link by clicking 'copy link' and then paste this with ⌘Cmd+P into your email draft.</h3>
-                  </div>
-                    <div class="col">
-                        <img style="height:30%;margin-top:100; margin-left:50"src="images/filecompress.png">
-                        <img style="height:15%;margin-left:0;margin-top:30;"src="images/fileswithgoogle1.png">
-                        <img style="height:25%;margin-left:60;margin-top:10;"src="images/fileswithgoogle2.png">
-                        <img style="height:20%;margin-left:150;margin-top:30;"src="images/fileswithgoogle3.png">
-
-                  </div>
-                  </div>
-                    </div>
-                        </div>
-
-
-
-        <div style="margin-left:140; margin-top:50;" class="row">
-            <div class="col">
-              <h2 style="margin-top:100;">Creating a New Mailbox</h2>
-                  <h3>All standard e-mail accounts have multiple mailboxes. There's inbox, sent, flags, and trash. It's possible to create other inboxes to organize your e-mail.</h3>
-                  <h3 style="margin-top:30;">Step 1: Open the mail app and right-click on the section under 'on my mac'. Choose the 'new mailbox' section.</h3>
-                  <h3>Step 2: Then choose the location of the e-mail. If you choose 'on my mac' it's local, meaning that it's only on your computer. If you choose your account, then it can be seen from any device that is connected to your email account.
-                  If you choose an existing mailbox, this new mailbox will be like a subfolder.</h3>
-                  <h3>Step 3: Once you've chosen a location, name the mailbox and click 'ok'.</h3>
-                  <h3>Step 4: You can organize your messages by dragging them into your new mailbox.</h3>
-            </div>
-            <div class="col">
-              <img style="height:60%;margin-top:100; margin-left:70"src="images/newmailbox1.png">
-              <img style="height:20%;margin-left:180;margin-top:20;"src="images/newmailbox4.png">
-            </div>
-          </div>
-        </div>
-
-
-
-
-
-
+    </div>
 
 </body>
